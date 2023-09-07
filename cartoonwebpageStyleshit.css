@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Crewniverse';
-    src: url(crewniverse_font.otf) format('otf');
+    src: url(./crewniverse_font.otf) format('otf');
 }
 
 * {
