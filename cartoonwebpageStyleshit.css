@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Crewniverse', sans-serif;
+    src: url('crewniverse_font.otf');
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#e7e7e7;
+}
+
+
+#header {
+    width: 100%;
+    height: 80%;
+    background:#960032;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#header h1 {
+    display: flex;
+    margin: 50px 50px;
+    color: #e7e7e7;
+    font-size: 100px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 8px 8px #d44b6f;
+}
+
+.headerdp {
+    border-radius: 50%;
+    border: 20px solid #FAF188;
+    width: 400px;
+    filter: drop-shadow(0 0 0.5rem);
+}
+
+.description {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Raleway Black', sans-serif;
+}
+
+.description h1 {
+    color: #d44b6f;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #1b1b1b;;
+    font-family: 'Raleway Black', sans-serif;
+}
+
+.facts {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.facts h1 {
+    color: #d44b6f;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.facts ul {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.facts ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:#1b1b1b;
+    font-family: 'Raleway Black', sans-serif;
+}
+
+#crystal_gems {
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding: 20px 20px;
+    border-radius: 40px;
+}
+
+#thecrystalgems {
+    width: 70%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.CGMembers {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.CGMembers h1 {
+    color: #d44b6f;
+}
+
+.CGMembers ul {
+    padding: 10px;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.CGMembers ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:#1b1b1b;
+    font-family: 'Raleway Black', sans-serif;
+}
+
+.CGMembers ul li a {
+    font-size: 15px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 40px 20px;
+    background-color: #960032;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+    font-family: 'Raleway Black', sans-serif;
+    color: #e7e7e7;
+}
+
+@media (max-width: 400px) {
+    .headerdp {
+        width: 270px;
+    }
+
+    #header h1 {
+        font-size: 55px;
+    }
+
+    .description h1 {
+        font-size: 30px;
+    }
+
+    .facts h1 {
+        font-size: 30px;
+    }
+
+    .CGMembers h1 {
+        font-size: 30px;
+    }
+
+    #crystal_gems {
+        width: 360px;
+        border-radius: 30px;
+    }
+}
+    
+
