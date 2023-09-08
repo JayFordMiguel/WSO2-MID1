@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'Crewniverse';
-    src: url(../crewniverse_font.otf) format('otf');
+    src: url(../crewniverse_font.otf) format('opentype');
     src: url(../crewniverse_font.ttf) format('truetype');
+    font-family: 'Raleway Black';
 
 }
 
@@ -9,7 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Crewniverse', 'Raleway Black';
+    font-family: 'Crewniverse';
 }
 
 body {
