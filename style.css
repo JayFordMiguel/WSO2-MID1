@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Crewniverse';
-    src: url(WSO2-MID1/crewniverse_font.otf) format('opentype');
-    src: url(WSO2-MID1/crewniverse_font.ttf) format('truetype');
+    src: url(./WSO2-MID1/crewniverse_font.otf) format('opentype');
+    src: url(./WSO2-MID1/crewniverse_font.ttf) format('truetype');
 
 }
 
@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'WSO2-MID1/crewniverse_font.ttf';
+    font-family: 'Crewniverse';
 }
 
 body {
